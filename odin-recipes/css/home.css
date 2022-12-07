@@ -1,0 +1,66 @@
+a {
+    text-decoration: none;
+}
+ul {
+    list-style-type: none;
+}
+body {
+    background-color: antiquewhite;
+}
+header {
+    display: flex;
+    justify-content: space-around;
+}
+h1.mainheader {
+    color: lightgoldenrodyellow;
+    font-size: 50px;
+    text-shadow: 3px 5px grey;
+    background-color: white;
+    border: 3px solid black;
+    padding: 10px 15px;
+    border-radius: 25px;
+}
+nav {
+    width: 100px;
+}
+.recipenav {
+    width: 300px;
+    padding: 20px;
+    font-size: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/*main section*/
+
+main {
+    background-color: white;
+    height: 800px;
+    width: 800px;
+    border: 3px solid black;
+    border-radius: 5px;
+    margin-top: 40px;
+    padding: 10px 30px;
+}
+img {
+    height: 200px;
+    width: 200px;
+}
+.intro {
+    text-align: center;
+}
+
+.recipecontainer {
+    display: flex;
+    justify-content: space-between;
+}
+div .chicken,
+    .corn,
+    .penne {
+        height: 550px;
+        width: 275px;
+        padding: 10px;
+        border: 5px solid black;
+        border-radius: 25px;
+        text-align: center;
+    }
